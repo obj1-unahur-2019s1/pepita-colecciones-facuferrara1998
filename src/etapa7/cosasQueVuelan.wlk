@@ -13,6 +13,8 @@ object helicopteroFeo {
   method volar(km) { kmDesdeUltimoService += km }
   method requiereService() { return kmDesdeUltimoService >= frecuenciaServiceKm } 
   method registarService() { kmDesdeUltimoService = 0 }
+  method comer(comida, gramos){}
+  method haceLoQueQuieras(){}
 }
 
 
@@ -29,6 +31,7 @@ object pepucha {
     }
     cuantoComioDesdeUltimoVuelo = 0
   }
-  method comer(gramos) { cuantoComioDesdeUltimoVuelo += gramos }
+  method comer(comidas, gramos) { cuantoComioDesdeUltimoVuelo += gramos }
   method esBienTratada() { return kmVoladosConPilas >= kmVoladosSinPilas }
+  method haceLoQueQuieras(){}
 }

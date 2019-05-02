@@ -1,7 +1,7 @@
 import pepita.*
 import comidas.*
 import masAves.*
-
+// agregarPupilo(unAve) 
 object roque {
 	var pupilo
 	
